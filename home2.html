@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="home2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Eczite - home</title>
 </head>
@@ -22,7 +23,7 @@
             <h1 class="content-1-head">Get a ride at your convenience</h1>
             <span class="quotes">Eczite is fueled for your movement</span>
             <div class="button-container">
-                <button class="ride-button">Book A Ride</button><i></i>
+                <button class="ride-button" onclick="Open()">Book A Ride</button><i></i>
             </div>
         </div>
         <div class="content-item item-2">
@@ -96,16 +97,21 @@
         </div>
     </section>
     <section class="eczite-section eczite-section-four">
-        <h1>Why Eczite?</h1>
-        <ul>
-            <li> <i class="fa fa-bolt" aria-hidden="true"></i> Fast Pick Up</li>
-            <li> <i class="fa fa-life-ring" aria-hidden="true"></i> Reliable</li>
-            <li> <i class="fa fa-phone" aria-hidden="true"></i> Easy communication</li>
-            <li><i class="fa fa-level-down" aria-hidden="true"></i> <i class="fa fa-level-up" aria-hidden="true"></i> Flexible Price</li>
-            <li> <i class="fa fa-car" aria-hidden="true"></i> Riders Support</li>
-            <li> <i class="fa fa-handshake-o" aria-hidden="true"></i> Tested and Trusted </li>
-        </ul>
+        <h1 class="why-header">Why Eczite?</h1>
+        <div class="why-grid">
+            <div class="why-grid-item"> <i class="fa fa-bolt" aria-hidden="true"></i> Fast Pick Up</div>
+            <div class="why-grid-item"> <i class="fa fa-life-ring" aria-hidden="true"></i> Reliable</div>
+            <div class="why-grid-item"> <i class="fa fa-phone" aria-hidden="true"></i> Easy communication</div>
+            <div class="why-grid-item"> <i class="fa fa-level-down" aria-hidden="true"></i> <i class="fa fa-level-up" aria-hidden="true"></i> Flexible Price</div>
+            <div class="why-grid-item"> <i class="fa fa-car" aria-hidden="true"></i> Riders Support</div>
+            <div class="why-grid-item"> <i class="fa fa-handshake-o" aria-hidden="true"></i> Tested and Trusted </div>
+        </div>
     </section>
+    <script>
+        function Open() { 
+            window.open("https://wa.me/+2347064400337", "_blank"); 
+        } 
+    </script>
 </body>
 </body>
 </html>
