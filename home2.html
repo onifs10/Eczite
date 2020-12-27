@@ -17,16 +17,51 @@
             <a href="" class="nav-btn">sign up</a>
         </div>
     </header>
-    <section class="content-1">
-        <div class=" content-text">
-            <div class="body-logo">logo</div>
+    <section class="content-1 ">
+        <div class=" content-text content-item item-1">
             <h1 class="content-1-head">Get a ride at your convenience</h1>
             <span class="quotes">Eczite is fueled for your movement</span>
+            <div class="button-container">
+                <button class="ride-button">Book A Ride</button><i></i>
+            </div>
         </div>
-        <div class="content-signup">
-            <div class="t">
-                <a class="body-btn  " href="/">login</a>
-                <a href="" class="body-btn">sign up</a>
+        <div class="content-item item-2">
+            <div class="reg-container">
+                <div class="reg">
+                <div class="reg-header">
+                    <div class="header-main">
+                        <h1>Register</h1>
+                    </div>
+                    <div class="header-p"><small>to get updates from us, please kindly register here</small></div>
+                </div>
+                <form class="reg-form">
+                   <div class="inputGroup">
+                        <input type="text"  name="name" id="name" required>
+                        <label for="name" class="label-name"><span class="label-content">Full Name</span></label>
+                    </div>
+                    <div class="inputGroup">
+                        <input type="text" required="required" id="number" name="phone_no">
+                        <label for="number" class="label-name"><span class="label-content">Phone Number</span></label>
+                    </div>
+                    <div class="inputGroup">
+                        <select name="type" id="type">
+                            <option value="---">
+                                ....
+                            </option>
+                            <option value="passenger">
+                                passenger
+                            </option>
+                            <option value="driver">
+                                driver
+                            </option>
+                        </select>
+                         <label for="type" class="label-name"><span class="label-content">Account type</span></label>
+                    </div>
+                    <div class="submit inputGroup-button">
+                        <input class="btn-signup " type="submit" value="Submit"/>
+                    </div>
+                </form>      
+            </div>
             </div>
         </div>
     </section>
