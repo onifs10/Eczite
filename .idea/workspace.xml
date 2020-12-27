@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19736daa-fcdf-4565-9f68-847ff94f7d72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/registration.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +75,11 @@
       <workItem from="1604947671695" duration="1079000" />
       <workItem from="1605689765086" duration="677000" />
       <workItem from="1607105692293" duration="7830000" />
-      <workItem from="1607164128167" duration="16166000" />
+      <workItem from="1607164128167" duration="16781000" />
+      <workItem from="1607278858451" duration="6165000" />
+      <workItem from="1607332360401" duration="5430000" />
+      <workItem from="1607350997787" duration="4074000" />
+      <workItem from="1607364754248" duration="1363000" />
     </task>
     <servers />
   </component>
@@ -97,9 +107,17 @@
       <screen x="0" y="28" width="1366" height="740" />
     </state>
     <state x="406" y="204" width="544" height="386" key="MultipleFileMergeDialog/0.28.1366.740@0.28.1366.740" timestamp="1607180686573" />
-    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup" timestamp="1607172001983">
+    <state width="450" height="340" key="javadoc.popup" timestamp="1607333835398">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1607172001983" />
+    <state width="450" height="340" key="javadoc.popup/0.28.1366.740@0.28.1366.740" timestamp="1607333835398" />
+    <state x="430" y="179" key="run.anything.popup" timestamp="1607334796381">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="430" y="179" key="run.anything.popup/0.28.1366.740@0.28.1366.740" timestamp="1607334796381" />
+    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup" timestamp="1607336078764">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="423" y="189" width="517" height="399" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1607336078764" />
   </component>
 </project>
