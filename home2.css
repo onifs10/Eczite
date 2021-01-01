@@ -215,9 +215,6 @@ select + label {
     flex:0 0 100%;
 }
 
-.content-3 .part-one .content{
-    /*background: #777777;*/
-}
 .content-3 .part-two{
     flex: 0 0 100%;
     display: flex;
